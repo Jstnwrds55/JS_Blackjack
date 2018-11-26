@@ -1,0 +1,158 @@
+/* Add your styles here */
+h2 {
+  font-size: 15px;
+  font-weight: normal;
+  position: relative;
+  top: -20px;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.playing-card {
+  position: relative;
+  border: 2px solid black;
+  height: 160px;
+  width: 100px;
+  font-size: 40px;
+  display: inline-block;
+  margin: auto;
+  margin-right: 20px;
+}
+
+#text-area {
+  font-weight: bold;
+}
+
+#playing-buttons button {
+  width: 100px;
+}
+
+.score-tags {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-header {
+  font-size: 25px;
+}
+
+.top-left {
+  position: absolute;
+  top: -40px;
+  left: 8px;
+}
+
+.top-right {
+  position: absolute;
+  top: -40px;
+  left: 63px;
+}
+
+.bottom-left {
+  position: absolute;
+  top: 75px;
+  left: 8px;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 75px;
+  left: 63px;
+}
+
+.card-val {
+  font-size: 50px;
+  position: relative;
+  margin: auto;
+  top: 45px;
+  text-align: center;
+}
+
+#text-area {
+  font-size: 20px;
+}
+
+button {
+  font-size: 20px;
+
+}
+
+#display-info {
+  padding-top: 100px;
+  position: absolute;
+  left: 150px;
+  line-height: 5px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#coins {
+  width: 100px;
+  vertical-align: middle;
+  max-height: 40px;
+}
+
+.coin {
+  border: solid black 2px;
+  padding: 15px;
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.coin p {
+  position: relative;
+  top: -30%;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#display-info button {
+  width: 260px;
+}
+
+#one {
+  background-color: #38C7BD;
+}
+
+#five {
+  background-color: #A62D2B;
+}
+
+#twenty-five {
+  background-color: #30A654;
+}
+
+#fifty {
+  background-color: #0E7FA6;
+}
+
+#one-hundred {
+  background-color: #B86B54;
+}
+
+#five-hundred {
+  background-color: #A050B8;
+}
+
+#one-thousand {
+  background-color: #D9D250;
+}
+
+.coin:hover {
+  -webkit-filter: brightness(70%);
+}
+
+.betting-button {
+  text-align: center;
+  margin-top: 10px;
+  width: 80px;
+  display: block;
+}
