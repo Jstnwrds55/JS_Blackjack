@@ -2,7 +2,6 @@
 // Blackjack
 // by Justin Edwards
 //
-// TODO: Make cards reset for new game
 //
 
 // stored data
