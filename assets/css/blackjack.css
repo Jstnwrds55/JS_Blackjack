@@ -1,6 +1,6 @@
 @font-face {
     font-family: merriweather;
-    src: url("../fonts/Merriweather-Regular.ttf");
+    src: url("../../webfonts/Merriweather-Regular.ttf");
   }
 
   /* header {
@@ -23,7 +23,7 @@
     font-size: 16px;
     text-align: center;
   }
-/* 
+
   .container {
     padding-top: 20px;
     height: 500px;
@@ -36,17 +36,19 @@
   .container h1 {
     font-size: 100px;
     margin-bottom: 0;
-  } */
+  }
+
   
   #image {
+    padding-top: 100px;
     color: white;
-    /* padding-top: 100px;
     height: 462px;
     width: 600px;
-    background-image: url(blackjack_img_opt.png); 
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 40px; */
+    margin: auto;
+    /* background-image: url(blackjack_img_opt.png);  */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    padding: 40px;
   }
   
   #image p {
@@ -181,10 +183,10 @@
   }
   
   #coins {
-    /* text-align: center; */
-    /* margin: auto; */
-    /* width: 500px; */
-    /* height: 250px; */
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 250px;
     /*
     width: 100px;
     vertical-align: middle;
@@ -193,22 +195,22 @@
   }
   
   .coin {
-    /* float: left;
+    float: left;
     border: solid black 2px;
     margin: 10px;
-    width: 100px; */
-    /* height: 100px; */
-    /* border-radius: 50%; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
   }
   
-  /* .coin p {
+  .coin p {
     position: relative;
     vertical-align: middle;
     text-align: center;
     font-weight: bold;
     font-size: 28px;
     color: black;
-  } */
+  }
   
   #display-info p {
     font-weight: bold;
@@ -249,7 +251,7 @@
     background-color: rgb(219, 210, 82);
   }
 
-  /* .coin p {
+  .coin p {
       background-color: white;
       position: relative;
       top: -10px;
@@ -259,7 +261,7 @@
       width: 60px;
       border-radius: 60px;
       border: 2px solid black;
-  } */
+  }
   
   .coin:hover {
     -webkit-filter: brightness(70%);

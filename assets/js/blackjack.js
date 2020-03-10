@@ -132,12 +132,12 @@ $(document).ready(function() {
         $('#image').css('background-image', 'none')
         $('#image').animate({
             height: '0px',
-            // paddingTop: '80px',
+            paddingTop: '80px',
 
         })
-        // $('#text-area').animate({
-        //     top: '-100px'
-        // })
+        $('#text-area').animate({
+            top: '-100px'
+        })
         $('#image').slideDown()
         $('#image').css('background-color', 'rgba(0, 0, 0, 0)')
         $('#image').animate({
